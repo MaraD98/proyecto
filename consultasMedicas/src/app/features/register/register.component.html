@@ -1,0 +1,65 @@
+
+<body>
+    <nav class="navbar"></nav>
+
+<section class="home">
+    <div class="content">
+        <div class="superior">
+            <img src="assets/persona.jpeg" alt="icono">
+            <div class="loader">
+                <div class="gray-line"></div>
+                <div class="green-line"></div>
+            </div>
+        </div>
+        <h1>Crear Cuenta</h1>
+
+        <div class="form">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido" required>
+
+
+
+            <div class="check">
+                <input type="checkbox" id="opcionesCheck" class="opciones-element">
+                <label for="opcionesCheck" class="opciones-element">Quiero agregar mi nombre escogido y
+                    pronombre</label>
+
+                <div class="opciones" style="padding-left: 0px;">
+                    <div class="form-group">
+                        <label for="nombre2">Nombre Escogido</label>
+                        <input type="text" id="nombre2" name="nombre2" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pronombre">Pronombre</label>
+                        <div class="select-wrapper">
+                            <select class="small-select" id="pronombre" name="pronombre">
+                                <option value="opcion1">Ella</option>
+                                <option value="opcion2">El</option>
+                                <option value="opcion3">Elle</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+
+
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button routerLink="/logueo" class="orange-button">Continuar</button>
+        </div>
+
+    </div>
+</section>
+
+
+<app-footer></app-footer>
+</body>
