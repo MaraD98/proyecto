@@ -1,0 +1,137 @@
+/* NAV*/
+
+.navbar {
+  background: #020F59;
+  height: 100px;
+  align-content: center;
+  justify-content: center;
+}
+
+
+.content1 {
+  display: flex;
+  align-items: center;
+  margin-top: 4em;
+}
+
+.texto h1 {
+  margin: 0;
+  color: #FFF;
+  font-family: Urbanist;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -0.41px;
+}
+
+.texto h2 {
+  margin: 0;
+  color: #01DBC6;
+  font-family: Urbanist;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -0.41px;
+}
+
+.logo {
+  max-width: 30px;
+}
+
+
+/* HOME*/
+
+.home {
+  justify-content: center;
+  display: flex;
+}
+
+
+/* FONDO */
+
+.content {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+.fondo {
+  height: 700px;
+  background: #1325AA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+video{
+  max-width: 500px;
+  height: 700px;
+}
+.cont div {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -0.2px;
+  padding: 40px;
+  width: 330px;
+}
+
+
+
+/* TELEFONO */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  margin-top: -65px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #FC015B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+/* INFERIOR */
+
+.inferior {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #020F59;
+  height: 100px;
+  margin-top: -25px;
+}
+
+.inferior img {
+  margin: 20px 15px 10px 10px;
+  width: 50px;
+  border-radius: 17px;
+  background: rgba(77, 95, 233, 0.77);
+}
+
+.inferior div {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 130%;
+  padding: 10px;
+}

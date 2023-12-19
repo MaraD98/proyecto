@@ -4,6 +4,7 @@ import { FirstViewComponent } from './features/first-view/first-view.component';
 import { StartComponent } from './features/start/start.component';
 import { RegisterComponent } from './features/register/register.component';
 import { LogginComponent } from './features/loggin/loggin.component';
+import { CallComponent } from './features/call/call.component';
 
 
 const routes: Routes = [
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path: 'logueo',
     component: LogginComponent
+  },
+  {
+    path: 'llamada',
+    component: CallComponent
   },
 ];
 

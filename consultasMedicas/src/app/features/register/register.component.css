@@ -195,21 +195,3 @@
     line-height: normal;
     margin-top: 25px;
   }
-
-
-
-  body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Altura mínima de la ventana */
-  }
-  
-  .main-content {
-    flex: 1; /* El contenido principal se expande para ocupar el espacio restante */
-  }
-  
-  /* Estilos para el footer */
-  app-footer {
-    margin-top: auto; /* Hace que el footer se quede pegado en la parte inferior */
-  }
-  
