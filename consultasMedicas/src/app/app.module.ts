@@ -9,6 +9,7 @@ import { LogginComponent } from './features/loggin/loggin.component';
 import { RegisterComponent } from './features/register/register.component';
 import { StartComponent } from './features/start/start.component';
 import { CallComponent } from './features/call/call.component';
+import { NavComponent } from './features/nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CallComponent } from './features/call/call.component';
     LogginComponent,
     RegisterComponent,
     StartComponent,
-    CallComponent
+    CallComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
