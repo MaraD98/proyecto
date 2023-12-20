@@ -168,9 +168,12 @@
   }
   
   select.small-select {
-    margin-right: 7px;
     padding: 10px;
-    width: 90px;
+    width: 217px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    background: #F7F8F9;
+    margin-left: 20px;
   }
   
   /* GROUP*/
