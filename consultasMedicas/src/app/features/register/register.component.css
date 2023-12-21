@@ -11,7 +11,7 @@
     justify-content: center;
     padding: 40px;
     display: flex;
-    min-height: 100vh;    
+    min-height: 91vh;  
   }
   
   
@@ -71,7 +71,7 @@
   /* CONTENIDO */
   
   .content {
-    max-width: 600px;
+    max-width: 500px;
     text-align: center;
   }
   
@@ -146,7 +146,13 @@
   }
   
   .opciones label{
-    margin-right: 5px;
+    margin-left: 25px;
+  }
+
+  .opciones input{
+    width: 100px;
+    margin-bottom: 25px;
+    margin-right: 50px;
   }
   
   #opcionesCheck:checked ~ .opciones {
@@ -168,9 +174,13 @@
   }
   
   select.small-select {
-    margin-right: 7px;
     padding: 10px;
-    width: 90px;
+    width: 100px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    background: #F7F8F9;
+    margin-left: 20px;
+    margin-right: 50px;
   }
   
   /* GROUP*/
@@ -195,21 +205,3 @@
     line-height: normal;
     margin-top: 25px;
   }
-
-
-
-  body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Altura mínima de la ventana */
-  }
-  
-  .main-content {
-    flex: 1; /* El contenido principal se expande para ocupar el espacio restante */
-  }
-  
-  /* Estilos para el footer */
-  app-footer {
-    margin-top: auto; /* Hace que el footer se quede pegado en la parte inferior */
-  }
-  

@@ -8,6 +8,10 @@ import { FooterComponent } from './features/footer/footer.component';
 import { LogginComponent } from './features/loggin/loggin.component';
 import { RegisterComponent } from './features/register/register.component';
 import { StartComponent } from './features/start/start.component';
+import { CallComponent } from './features/call/call.component';
+import { NavComponent } from './features/nav/nav.component';
+import { LoadComponent } from './features/load/load.component';
+import { PayComponent } from './features/pay/pay.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { StartComponent } from './features/start/start.component';
     FooterComponent,
     LogginComponent,
     RegisterComponent,
-    StartComponent
+    StartComponent,
+    CallComponent,
+    NavComponent,
+    LoadComponent,
+    PayComponent
   ],
   imports: [
     BrowserModule,
