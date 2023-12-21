@@ -10,6 +10,8 @@ import { RegisterComponent } from './features/register/register.component';
 import { StartComponent } from './features/start/start.component';
 import { CallComponent } from './features/call/call.component';
 import { NavComponent } from './features/nav/nav.component';
+import { LoadComponent } from './features/load/load.component';
+import { PayComponent } from './features/pay/pay.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { NavComponent } from './features/nav/nav.component';
     RegisterComponent,
     StartComponent,
     CallComponent,
-    NavComponent
+    NavComponent,
+    LoadComponent,
+    PayComponent
   ],
   imports: [
     BrowserModule,

@@ -5,6 +5,8 @@ import { StartComponent } from './features/start/start.component';
 import { RegisterComponent } from './features/register/register.component';
 import { LogginComponent } from './features/loggin/loggin.component';
 import { CallComponent } from './features/call/call.component';
+import { LoadComponent } from './features/load/load.component';
+import { PayComponent } from './features/pay/pay.component';
 
 
 const routes: Routes = [
@@ -27,6 +29,14 @@ const routes: Routes = [
   {
     path: 'llamada',
     component: CallComponent
+  },
+  {
+    path: 'carga',
+    component: LoadComponent
+  },
+  {
+    path: 'pagar',
+    component: PayComponent
   },
 ];
 
